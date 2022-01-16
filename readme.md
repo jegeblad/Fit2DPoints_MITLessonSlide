@@ -27,9 +27,16 @@ I then tried with:
 	inner_layers in [2,3,4,6,8]
     inner_nodes in [2,4,8,16,32,64,128,256,384]
 
-For each combination of above parameters I train the model for 4000 epochs, and visualize every 100th epoch. The results looks like this:
+For each combination of above parameters I trained the model for 4000 epochs, and saved the resulting image for every 100th epoch to create an animation of the fit. The results looks like this:
 
 | Inner layers | nodes | Animation     |  Final | Loss   |
 |--------------|-------|--------|--------|--------|
 | 2            |   2   | ![a](out_2_2/out_2_2.gif). | ![a](out_2_2/vis_3999.png). | ![a](out_2_2/loss.png). | 
-|--------------|-------|--------|--------|--------|
+| 2            |   4   | ![a](out_2_4/out_2_4.gif). | ![a](out_2_4/vis_3999.png). | ![a](out_2_4/loss.png). | 
+| 2            |   8   | ![a](out_2_8/out_2_8.gif). | ![a](out_2_8/vis_3999.png). | ![a](out_2_8/loss.png). | 
+| 2            |   16   | ![a](out_2_16/out_2_16.gif). | ![a](out_2_16/vis_3999.png). | ![a](out_2_16/loss.png). | 
+| 2            |   32   | ![a](out_2_32/out_2_32.gif). | ![a](out_2_32/vis_3999.png). | ![a](out_2_32/loss.png). | 
+| 2            |   64   | ![a](out_2_64/out_2_64.gif). | ![a](out_2_64/vis_3999.png). | ![a](out_2_64/loss.png). | 
+| 2            |   128   | ![a](out_2_128/out_2_128.gif). | ![a](out_2_128/vis_3999.png). | ![a](out_2_128/loss.png). | 
+| 2            |   256   | ![a](out_2_256/out_2_256.gif). | ![a](out_2_256/vis_3999.png). | ![a](out_2_256/loss.png). | 
+| 2            |   384   | ![a](out_2_384/out_2_384.gif). | ![a](out_2_384/vis_3999.png). | ![a](out_2_384/loss.png). | 
