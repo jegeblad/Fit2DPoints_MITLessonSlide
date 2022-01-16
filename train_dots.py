@@ -112,7 +112,7 @@ for x in range(256):
         xy_array[256*y+x,1]=1.0-y/255.0;
 
 # Try meta-parameters
-for inner_layers in [1]:#[2,3,4,6,8]:
+for inner_layers in [1,2,3,4,6,8]:
     for inner_nodes in [2,4,8,16,32,64,128,256,384]:
         # Create output folder
         output_path ="out_"+str(inner_layers)+"_"+str(inner_nodes); 
