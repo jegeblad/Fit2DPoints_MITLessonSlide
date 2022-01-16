@@ -35,15 +35,15 @@ So in conclusion, it is indeed possible to fit a figure around these points, wit
 
 | Inner layers | nodes | Animation     |  Final | Loss   |
 |--------------|-------|--------|--------|--------|
-| 1            |   2   | ![a](out_1_2/out_1_2.gif). | ![a](out_1_2/vis_3999.png). | ![a](out_1_2/loss.png). | 
-| 1            |   4   | ![a](out_1_4/out_1_4.gif). | ![a](out_1_4/vis_3999.png). | ![a](out_1_4/loss.png). | 
-| 1            |   8   | ![a](out_1_8/out_1_8.gif). | ![a](out_1_8/vis_3999.png). | ![a](out_1_8/loss.png). | 
-| 1            |   16   | ![a](out_1_16/out_1_16.gif). | ![a](out_1_16/vis_3999.png). | ![a](out_1_16/loss.png). | 
-| 1            |   32   | ![a](out_1_32/out_1_32.gif). | ![a](out_1_32/vis_3999.png). | ![a](out_1_32/loss.png). | 
-| 1            |   64   | ![a](out_1_64/out_1_64.gif). | ![a](out_1_64/vis_3999.png). | ![a](out_1_64/loss.png). | 
-| 1            |   128   | ![a](out_1_128/out_1_128.gif). | ![a](out_1_128/vis_3999.png). | ![a](out_1_128/loss.png). | 
-| 1            |   256   | ![a](out_1_256/out_1_256.gif). | ![a](out_1_256/vis_3999.png). | ![a](out_1_256/loss.png). | 
-| 1            |   384   | ![a](out_1_384/out_1_384.gif). | ![a](out_1_384/vis_3999.png). | ![a](out_1_384/loss.png). | 
+| 1            |   2   | ![a](out_1_2/out_1_2.gif). | ![a](out_1_2/vis_4000.png). | ![a](out_1_2/loss.png). | 
+| 1            |   4   | ![a](out_1_4/out_1_4.gif). | ![a](out_1_4/vis_4000.png). | ![a](out_1_4/loss.png). | 
+| 1            |   8   | ![a](out_1_8/out_1_8.gif). | ![a](out_1_8/vis_4000.png). | ![a](out_1_8/loss.png). | 
+| 1            |   16   | ![a](out_1_16/out_1_16.gif). | ![a](out_1_16/vis_4000.png). | ![a](out_1_16/loss.png). | 
+| 1            |   32   | ![a](out_1_32/out_1_32.gif). | ![a](out_1_32/vis_4000.png). | ![a](out_1_32/loss.png). | 
+| 1            |   64   | ![a](out_1_64/out_1_64.gif). | ![a](out_1_64/vis_4000.png). | ![a](out_1_64/loss.png). | 
+| 1            |   128   | ![a](out_1_128/out_1_128.gif). | ![a](out_1_128/vis_4000.png). | ![a](out_1_128/loss.png). | 
+| 1            |   256   | ![a](out_1_256/out_1_256.gif). | ![a](out_1_256/vis_4000.png). | ![a](out_1_256/loss.png). | 
+| 1            |   384   | ![a](out_1_384/out_1_384.gif). | ![a](out_1_384/vis_4000.png). | ![a](out_1_384/loss.png). | 
 | 2            |   2   | ![a](out_2_2/out_2_2.gif). | ![a](out_2_2/vis_3999.png). | ![a](out_2_2/loss.png). | 
 | 2            |   4   | ![a](out_2_4/out_2_4.gif). | ![a](out_2_4/vis_3999.png). | ![a](out_2_4/loss.png). | 
 | 2            |   8   | ![a](out_2_8/out_2_8.gif). | ![a](out_2_8/vis_3999.png). | ![a](out_2_8/loss.png). | 
