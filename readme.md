@@ -30,7 +30,9 @@ I then tried with:
 For each combination of above parameters I trained the model for 4000 epochs. I then create an image where each pixel is predicted for every 100th epoch (i.e. the image represents all points in the plane). I animate the images to create an animation of the fitting process. The results are in the table below (Final is the final image).
 It looks like we need fewer nodes the more layers we have to get a decent looking fit. So 2 layers, 128 nodes, 3 layers 64 nodes, 4 layers 32 nodes all look like good fits. More layers doesn't seem to converge and a single layer doesn't seem sufficient at all. Adding more nodes with 2-4 layers, generally seem to cause faster conversion.
 
-So in conclusion, it is indeed possible to fit a figure around these points, with a few layers and nodes, and about 2000 epochs. 
+I tried the same experiment but with 'relu' activations instead of 'sigmoid' (shown in the 3 rightmost columns). Interestingly enough, we get a sharp line like perimeter (as we would expect with relu) when using few layers. We can see convergence sooner, both in terms of epochs, and in number of nodes and layers. So using relu, we actually get an almost acceptable fit with just one inner layer and 64 inner nodes, and using 2 layers and 16 nodes looks completely acceptable.
+
+So in conclusion, it is indeed possible to fit a figure around these points, with a few layers and nodes, and about 1-2000 epochs. 'Relu' seems to work with fewer epochs, layers and nodes than 'sigmoid' in this case.
 
 
 | Inner layers | nodes | Animation (sigmoid) |  Final (sigmoid) | Loss (sigmoid)   | Animation (relu) |  Final (relu) | Loss (relu)   | 
