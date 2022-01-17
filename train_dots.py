@@ -63,7 +63,7 @@ def simple_model(inner_nodes, inner_layers):
     input_layer = Input(shape=(2));
     x = input_layer;
     for i in range(inner_layers):
-        x = Dense(inner_nodes, activation='sigmoid')(x);
+        x = Dense(inner_nodes, activation='relu')(x);
     output_layer = Dense(2, activation='sigmoid')(x)
     model = keras.models.Model(inputs=[input_layer], outputs=[output_layer])
     model.compile(optimizer = 'adam' , loss = "binary_crossentropy", metrics=['accuracy'])
@@ -115,7 +115,7 @@ for x in range(256):
 for inner_layers in [1,2,3,4,6,8]:
     for inner_nodes in [2,4,8,16,32,64,128,256,384]:
         # Create output folder
-        output_path ="out_"+str(inner_layers)+"_"+str(inner_nodes); 
+        output_path ="reluout_"+str(inner_layers)+"_"+str(inner_nodes); 
         if not os.path.exists(output_path):
             os.mkdir(output_path);
 
